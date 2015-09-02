@@ -4,6 +4,10 @@ html, body {
 	font-family: "Century Gothic", sans-serif;
 }
 
+a, a:hover { 
+	color: inherit; 
+} 
+
 /* CSS for smooth scrolling */
 @media (max-width: 768px) {
     .navbar .nav-pills {
