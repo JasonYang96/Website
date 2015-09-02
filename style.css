@@ -2,13 +2,18 @@ html, body {
 	height: 100%;
 	width: 100%;
 	font-family: "Century Gothic", sans-serif;
+	background: url(img/background.jpg) repeat;
 }
 
 a, a:hover { 
 	color: inherit; 
 }
 
-.container {
+p {
+	margin-right:20px;
+}
+
+.pad-top {
 	padding-top: 60px;
 }
 
@@ -37,6 +42,10 @@ a, a:hover {
 
 #about {
 	margin-top:145px;
+}
+
+.panel{
+	margin-top: 40px;
 }
 
 footer {
