@@ -6,7 +6,11 @@ html, body {
 
 a, a:hover { 
 	color: inherit; 
-} 
+}
+
+.container {
+	padding-top: 60px;
+}
 
 /* CSS for smooth scrolling */
 @media (max-width: 768px) {
@@ -29,7 +33,6 @@ a, a:hover {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size:cover;
-	padding-top: 500px;
 }
 
 footer {
