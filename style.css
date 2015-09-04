@@ -9,39 +9,22 @@ a, a:hover {
 	color: inherit; 
 }
 
-p {
-	margin-right:20px;
-}
-
 .pad-top {
 	padding-top: 60px;
 }
 
-@media (max-width: 768px) {
-    .navbar .nav-pills {
-		display: inline-block;
-    }
-
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
-}
-
-/* Home Page */
 #home {
 	background: url(img/home.jpg) no-repeat center center fixed;
 	background-position: 0 0%;
-	display: table;
 	height: 80%;
 	width: 100%;
-	position: relative;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	background-size:cover;
+	background-size: cover;
 }
 
 #about {
-	margin-top:145px;
+	margin-top: 145px;
 }
 
 .panel{
@@ -53,5 +36,5 @@ footer {
 }
 
 footer .container, #contact .container {
-	padding-top:0px;
+	padding-top: 0px;
 }
