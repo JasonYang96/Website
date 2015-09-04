@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
-<html lang-"en">
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Jason Yang</title>
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -20,7 +21,7 @@
 	</head>
 
 	<body>
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
@@ -33,10 +34,10 @@
 
 				<div class="collapse navbar-collapse" id="Navbar">
 					<ul class="nav navbar-nav">
-						<li><a data-toggle="collapse"  data-target=".navbar-collapse" href="#experience"><h4>Experience</h4></a></li>
-						<li><a data-toggle="collapse"  data-target=".navbar-collapse" href="#projects"><h4>Projects</h4></a></li>
-						<li><a data-toggle="collapse"  data-target=".navbar-collapse" href="#contact"><h4>Contact</h4></a></li>
-						<li><a data-toggle="collapse"  data-target=".navbar-collapse" href="Jason Yang Resume.pdf" target="_blank"><h4>Resume</h4></a></li>
+						<li><a href="#experience"><h4>Experience</h4></a></li>
+						<li><a href="#projects"><h4>Projects</h4></a></li>
+						<li><a href="#contact"><h4>Contact</h4></a></li>
+						<li><a href="Jason%20Yang%20Resume.pdf" target="_blank"><h4>Resume</h4></a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right nav-pills">
 					    <li>
@@ -65,18 +66,18 @@
 		<div id="home">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-1"></div>
-					<div class="col-xs-4 panel panel-default text-center" id="about">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-4 panel panel-default text-center" id="about">
 						<div class="panel-body">
 							<h1>Jason Yang</h1>
 							<h3>Developer | Volunteer | Musician</h3>
 							<br>
 							<p>Hello World! My name is Jason Yang and I am a third-year computer science student at the University of California, Los Angeles. I'm currently looking for an internship for the summer of 2016. I'm currently proficient at the C++/C languages. I also have some experience and am interested in front-end and mobile development. I'm also very interested in artificial intelligence and machine learning, as well as computer vision and augmented/virtual reality and am looking for opporutnities to work with these technologies.</p>
 							<br>
-							<p>Outside of computer science, I spend most of my time doing community service. In the past year, I've had the pleasure of working as UCLA Circle K International's Administrative Fundraising Chair. I had the opportunity to lead my own committee and help fundraise over $20,000 to various charities we support. I've also spent a lot a time singing with my A Cappella Group, AweChords. I was the treasurer last year and now act as the group's president.</p>
+							<p>Outside of computer science, I spend most of my time doing community service. In the past year, I've had the pleasure of working as UCLA Circle K International's Administrative Fundraising Chair. I had the opportunity to lead my own committee and help fundraise over $20,000 for various charities we support. I've also spent a lot a time singing with my A Cappella Group, AweChords. I was the treasurer last year and now act as the group's president.</p>
 						</div>
 					</div>
-					<div class="col-xs-7"></div>
+					<div class="col-sm-7"></div>
 				</div>
 			</div>
 		</div>
@@ -93,12 +94,12 @@
 					<h2>Work Experience</h2>
 				</div>
 				<div class="row">
-					<div class="col-xs-3">
-				        <h3>Hudl | Lincoln, NE</a></h3>
+					<div class="col-sm-3">
+				        <h3>Hudl | Lincoln, NE</h3>
 				        <p>Software QA Intern</p>
 						<h4>June 2015 - August 2015</h4>
 					</div>
-					<div class="col-xs-9">
+					<div class="col-sm-9">
 						<br>
 						<p>My main responsibility was to test and deploy new features before they went to production. To do this, I created automated tests to test our front-end as well as our app on real devices. I wrote automated tests for the web using casperJS and wrote automated tests for the app using Python with Appium. I was also in charge of leading a user experience trial for several different capture and publishing workflows to see where Hudl could improve. As a project, I also implemented iOS support for Bluetooth remotes for the Hudl platform using Objective-C.</p>
 					</div>
@@ -108,7 +109,7 @@
 					<h2>School Experience</h2>
 				</div>
 				<div class="row">
-					<div class="col-xs-5">
+					<div class="col-sm-5">
 				        <h3>University of California, Los Angeles</h3>
 				        <h4>Bachelor of Science Candidate, Computer Science</h4>
 				        <p>Cumulative GPA: 3.341</p>
@@ -116,7 +117,7 @@
 				        <h4>August 2013 - Present</h4>
 						<p>Expected Graduation: June 2017</p>
 					</div>
-					<div class="col-xs-7 text-left">
+					<div class="col-sm-7 text-left">
 						<br>
 						<h4>Relevant Coursework</h4>
 						<ul>
@@ -136,97 +137,99 @@
 
 			<!-- Projects Page -->
 			<div id="projects" class="pad-top">
-				<div class="row">
-					<h1>My Projects</h1>
-				</div>
-				<br>
-				<div class="row" id="bildr">
-					<div class="col-xs-3">
-				        <h2><a href="http://www.bildr.co" target="_blank">bildr.co</a></h2>
-						<h3>August, 2015</h3>
-						<h4>2-person project</h4>
-						<p>
-						<a href="https://github.com/jacobnisnevich/item-set-builder" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
-						<a href="http://www.bildr.co" target="_blank"><i class="fa fa-external-link-square fa-2x"></i></a>
-						</p>
+				<div class="container">
+					<div class="row">
+						<h1>My Projects</h1>
 					</div>
-					<div class="col-xs-9">
 					<br>
-					<p>Written in Ruby, JavaScript, and Materialize HTML</p>
-					<p>Submission for Riot Games API Challenge 2.0</p>
-					<p>Based on popular game League of Legends, bildr.co calculates how effecient an item set is, based on the gold effeciency of each item. bildr.co allows a user to upload their own item set, modify their item set in our item set builder, and finally download an improved item set to use in game. bildr.co also analyzes several key features of the item set and relays that back to the user.</p>
-					<p>I implemented the drag-and-drop ability of the item set builder, along with the search and filtering of items. I also worked on general front-end development of the site.</p>
+					<div class="row" id="bildr">
+						<div class="col-sm-3">
+					        <h2><a href="http://www.bildr.co" target="_blank">bildr.co</a></h2>
+							<h3>August, 2015</h3>
+							<h4>2-person project</h4>
+							<p>
+							<a href="https://github.com/jacobnisnevich/item-set-builder" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+							<a href="http://www.bildr.co" target="_blank"><i class="fa fa-external-link-square fa-2x"></i></a>
+							</p>
+						</div>
+						<div class="col-sm-9">
+						<br>
+						<p>Written in Ruby, JavaScript, and Materialize HTML</p>
+						<p>Submission for Riot Games API Challenge 2.0</p>
+						<p>Based on popular game League of Legends, bildr.co calculates how effecient an item set is, based on the gold effeciency of each item. bildr.co allows a user to upload their own item set, modify their item set in our item set builder, and finally download an improved item set to use in game. bildr.co also analyzes several key features of the item set and relays that back to the user.</p>
+						<p>I implemented the drag-and-drop ability of the item set builder, along with the search and filtering of items. I also worked on general front-end development of the site.</p>
+						</div>
 					</div>
-				</div>
-				<hr/>
-				<div class="row" id="assassins">
-					<div class="col-xs-3">
-						<h2><a href="https://github.com/qmac/Assassin" target="_blank">Assassins</a></h2>
-						<h3>July, 2015</h3>
-						<h4>5-person project</h4>
-						<p>
-						<a href="https://github.com/qmac/Assassin" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
-						</p>
+					<hr/>
+					<div class="row" id="assassins">
+						<div class="col-sm-3">
+							<h2><a href="https://github.com/qmac/Assassin" target="_blank">Assassins</a></h2>
+							<h3>July, 2015</h3>
+							<h4>5-person project</h4>
+							<p>
+							<a href="https://github.com/qmac/Assassin" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+							</p>
+						</div>
+						<div class="col-sm-9">
+						<br>
+						<p>Written in Objective-C and uses Parse for back-end</p>
+						<p>Received 1st place at Hudl Intern Skunkworks, "Best in Show"</p>
+						<p>Assassins is an iOS app that facilitates the popular social game Assassins. The app allows users to create and play several games at the same time. It provides users with their target and their target's last known location using GPS.</p>
+						<p>I implemented controllers to facilitate playing through each game and updating back-end data in real time.</p>
+						</div>
 					</div>
-					<div class="col-xs-9">
-					<br>
-					<p>Written in Objective-C and uses Parse for back-end</p>
-					<p>Received 1st place at Hudl Intern Skunkworks, "Best in Show"</p>
-					<p>Assassins is an iOS app that facilitates the popular social game Assassins. The app allows users to create and play several games at the same time. It provides users with their target and their target's last known location using GPS.</p>
-					<p>I implemented controllers to facilitate playing through each game and updating back-end data in real time.</p>
+					<hr/>
+					<div class="row" id="anus">
+						<div class="col-sm-3">
+							<h2><a href="http://gautamg795.github.io/CS174-Final-Project/" target="_blank">Amazing NASA Universe Simulator</a></h2>
+							<h3>June, 2015</h3>
+							<h4>4-person project</h4>
+							<p>
+							<a href="https://github.com/gautamg795/CS174-Final-Project" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+							<a href="http://gautamg795.github.io/CS174-Final-Project/" target="_blank"><i class="fa fa-external-link-square fa-2x"></i></a>
+							</p>
+						</div>
+						<div class="col-sm-9">
+						<br>
+						<p>Written in WebGL, Javascript, and HTML</p>
+						<p>The Amazing NASA Universe Simulator is a web app game where a user pilots a spaceship around planets to try to fly into an exit sign to finish a level. The game has an added feature where users are allowed to modify the level before playing it by creating planets of varying mass to affect the overall gravity field fo the planets</p>
+						<p>I implemented collision detection between the sapceship, planets, fuel pickups, and the exit sign. I also worked on the front-end of the website.</p>
+						</div>
 					</div>
-				</div>
-				<hr/>
-				<div class="row" id="anus">
-					<div class="col-xs-3">
-						<h2><a href="http://gautamg795.github.io/CS174-Final-Project/" target="_blank">Amazing NASA Universe Simulator</a></h2>
-						<h3>June, 2015</h3>
-						<h4>4-person project</h4>
-						<p>
-						<a href="https://github.com/gautamg795/CS174-Final-Project" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
-						<a href="http://gautamg795.github.io/CS174-Final-Project/" target="_blank"><i class="fa fa-external-link-square fa-2x"></i></a>
-						</p>
+					<hr/>
+					<div class="row" id="audiopod">
+						<div class="col-sm-3">
+							<h2><a href="http://www.audiopod.me" target="_blank">audiopod.me</a></h2>
+							<h3>April, 2015</h3>
+							<h4>4-person project</h4>
+							<p>
+							<a href="http://www.audiopod.me" target="_blank"><i class="fa fa-external-link-square fa-2x"></i></a>
+							</p>
+						</div>
+						<div class="col-sm-9">
+						<br>
+						<p>Written in Python (Flask), JavaScript, and Bootstrap HTML</p>
+						<p>Submission for LA Hacks 2015</p>
+						<p>audiopod.me is a "21st-century jukebox" that allows a host to create a playlist from YouTube based on guests' suggestions. A host creates a room and guests may join the room to add their own suggestions of what to play next. audiopod.me takes those suggestions and creates a playlist where the host can then decide to keep or delete the song from the playlist.<p>
+						<p>I implemented the front-end of the website as well as some Python/JavScript scripting to interact with the back-end when creating playlists with YouTube.</p>
+						</div>
 					</div>
-					<div class="col-xs-9">
-					<br>
-					<p>Written in WebGL, Javascript, and HTML</p>
-					<p>The Amazing NASA Universe Simulator is a web app game where a user pilots a spaceship around planets to try to fly into an exit sign to finish a level. The game has an added feature where users are allowed to modify the level before playing it by creating planets of varying mass to affect the overall gravity field fo the planets</p>
-					<p>I implemented collision detection between the sapceship, planets, fuel pickups, and the exit sign. I also worked on the front-end of the website.</p>
-					</div>
-				</div>
-				<hr/>
-				<div class="row" id="audiopod">
-					<div class="col-xs-3">
-						<h2><a href="http://www.audiopod.me" target="_blank">audiopod.me</a></h2>
-						<h3>April, 2015</h3>
-						<h4>4-person project</h4>
-						<p>
-						<a href="http://www.audiopod.me" target="_blank"><i class="fa fa-external-link-square fa-2x"></i></a>
-						</p>
-					</div>
-					<div class="col-xs-9">
-					<br>
-					<p>Written in Python (Flask), JavaScript, and Bootstrap HTML</p>
-					<p>Submission for LA Hacks 2015</p>
-					<p>audiopod.me is a "21st-century jukebox" that allows a host to create a playlist from YouTube based on guests' suggestions. A host creates a room and guests may join the room to add their own suggestions of what to play next. audiopod.me takes those suggestions and creates a playlist where the host can then decide to keep or delete the song from the playlist.<p>
-					<p>I implemented the front-end of the website as well as some Python/JavScript scripting to interact with the back-end when creating playlists with YouTube.</p>
-					</div>
-				</div>
-				<hr/>
-				<div class="row" id="bash">
-					<div class="col-xs-3">
-						<h2><a href="https://github.com/JasonYang96/Profiling-Shell" target="_blank">Profiling Bash Shell</a></h2>
-						<h3>January, 2015</h3>
-						<h4>2-person project</h4>
-						<p>
-						<a href="https://github.com/JasonYang96/Profiling-Shell" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
-					</div>
-					<div class="col-xs-9">
-					<br>
-					<br>
-					<p>Written in C</p>
-					<p>A shell capable of aprsing and running complex bash scripts and returning time profiling details, such as time effeciency.</p>
-					<p>I implemented the script parser and the logic for the time profiling details.</p>
+					<hr/>
+					<div class="row" id="bash">
+						<div class="col-sm-3">
+							<h2><a href="https://github.com/JasonYang96/Profiling-Shell" target="_blank">Profiling Bash Shell</a></h2>
+							<h3>January, 2015</h3>
+							<h4>2-person project</h4>
+							<p>
+							<a href="https://github.com/JasonYang96/Profiling-Shell" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+						</div>
+						<div class="col-sm-9">
+						<br>
+						<br>
+						<p>Written in C</p>
+						<p>A shell capable of aprsing and running complex bash scripts and returning time profiling details, such as time effeciency.</p>
+						<p>I implemented the script parser and the logic for the time profiling details.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -236,11 +239,11 @@
 			<div id="contact">
 				<h1>Contact Me</h1>
 				<div class="row">
-					<div class="col-xs-6">
+					<div class="col-sm-6">
 						<h2><i class="fa fa-envelope"></i> : <a href="mailto:JasonYang96@ucla.edu">JasonYang96@ucla.edu</a></h2>
 						<h2><i class="fa fa-mobile fa-2x"></i> : <a href="tel:6264375521">(626) 537-5521</a></h2>
 					</div>
-					<div class="col-xs-6">
+					<div class="col-sm-6">
 						<h2>Social Links:</h2>
 			            <a href="https://www.facebook.com/Jasoniful" class="btn btn-social-icon btn-facebook" target="_blank">
 			                <i class="fa fa-facebook-square fa-4x"></i>
@@ -262,7 +265,7 @@
 			<footer>
 				<div class="container">
 					<div class="row" style="clear: both;">
-						<div class="text-left" style="float:left">Picture Credit: <a href="http://gautamguptaphotography.pixieset.com/" target="_blank">Gautam Gupta<a></div>
+						<div class="text-left" style="float:left">Picture Credit: <a href="http://gautamguptaphotography.pixieset.com/" target="_blank">Gautam Gupta</a></div>
 						<div class="text-right" style="float:right; margin-right:30px">Copyright &copy; Jason Yang 2015</div>
 					</div>
 				</div>
