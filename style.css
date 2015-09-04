@@ -16,6 +16,7 @@ a, a:hover {
 #home {
 	background: url(img/home.jpg) no-repeat center center fixed;
 	background-position: 0 0%;
+	display: table;
 	height: 80%;
 	width: 100%;
 	-webkit-background-size: cover;
